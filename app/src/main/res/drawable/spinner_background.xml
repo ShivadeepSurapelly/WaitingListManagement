@@ -1,0 +1,34 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Background when the spinner is pressed -->
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <gradient
+                android:startColor="#90e0ef"
+                android:endColor="#90e0ef"
+                android:type="linear"
+                android:angle="45"/>
+            <corners android:radius="8dp" />
+            <padding
+                android:left="8dp"
+                android:top="8dp"
+                android:right="8dp"
+                android:bottom="8dp"/>
+        </shape>
+    </item>
+    <!-- Default background -->
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:startColor="#90e0ef"
+                android:endColor="#90e0ef"
+                android:type="linear"
+                android:angle="45"/>
+            <corners android:radius="8dp" />
+            <padding
+                android:left="8dp"
+                android:top="8dp"
+                android:right="8dp"
+                android:bottom="8dp"/>
+        </shape>
+    </item>
+</selector>

@@ -1,0 +1,17 @@
+<!-- edit_button_background.xml -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Button pressed state -->
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <solid android:color="#FF4081" /> <!-- Background color when pressed -->
+            <corners android:radius="8dp" /> <!-- Rounded corners -->
+        </shape>
+    </item>
+    <!-- Button default state -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#E91E63" /> <!-- Background color -->
+            <corners android:radius="8dp" /> <!-- Rounded corners -->
+        </shape>
+    </item>
+</selector>
